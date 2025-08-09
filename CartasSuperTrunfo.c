@@ -1,26 +1,71 @@
 #include <stdio.h>
 
     int main() {
-    
-    printf("Carta:%d.\n", 1);
-    printf("Estado:%c.\n", 'A');
-    printf("Código:%s.\n", "A1\n");
-    printf("Nome da Cidade:%s.\n", "PERNAMBUCO");
-    printf("População:%f.\n", 9.539,000);
-    printf("Área:%s.\n", "98km\u00b2\n");
-    printf("PIB:%2f.\n", 245.828);
-    printf("Números de pontos turísticos:%d.\n", 16);
+       
+        int Carta;          
+        printf("Carta: 1 ");
+        scanf("%d",&Carta);
 
-    printf("Carta:%d.\n", 2);
-    printf("Estado:%c.\n", 'B');
-    printf("Código:%s.\n", "B2\n");
-    printf("Nome da Cidade:%s.\n", "PARAÍBA");
-    printf("População:%f.\n", 3.974,495);
-    printf("Área:%s.\n", "70km\u00b2\n");
-    printf("PIB:%2f.\n", 77.470);
-    printf("Números de pontos turísticos:%d.\n", 13);
-    printf("novo commit\n");
+        char A;  
+        printf("Estado: A ");
+        scanf("%s",&A);
 
+        char A1;  
+        printf("Código: A1 ");
+        scanf("%s",&A1);
+
+        char PERNAMBUCO;  
+        printf("Cidade: PERNAMBUCO ");
+        scanf("%s",&PERNAMBUCO);
+
+        float população;  
+        printf("População: 9.539,000 ");
+        scanf("%f",&população);
+
+        float Área;  
+        printf("Área em km²: 98.312 ");
+        scanf("%f",&Área);
+
+        float PIB;  
+        printf("PIB em Bilhões: 245.828 ");
+        scanf("%f",&PIB);
+
+        int Pontos;          
+        printf("Pontos Turísticos: 16\n ");
+        scanf("%d",&Pontos);
+
+        int;          
+        printf("Carta: 2 ");
+        scanf("%d",&Carta);
+
+        char B;  
+        printf("Estado: B ");
+        scanf("%s",&B);
+
+        char B2;  
+        printf("Código: B2 ");
+        scanf("%s",&B2);
+
+        char PARAIBA;  
+        printf("Cidade: PARAÍBA ");
+        scanf("%s",&PARAIBA);
+
+        float população2;  
+        printf("População: 3.974,495 ");
+        scanf("%f",&população2);
+
+        float Área2;  
+        printf("Área em km²: 56.467,242 ");
+        scanf("%f",&Área2);
+
+        float PIB2;  
+        printf("PIB em Bilhões: 77.470 ");
+        scanf("%f",&PIB2);
+
+        int Pont;          
+        printf("Pontos Turísticos: 13 ");
+        scanf("%d",&Pont);
+        
     }
 
 
